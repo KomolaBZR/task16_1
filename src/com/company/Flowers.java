@@ -45,8 +45,8 @@ public class Flowers extends Plants {
     }
     public String toString() {
         if(getYears()==1) {
-            return "Flowers \"" +getPlant()+ "\" have grown in a year: "+plantGrowthInTheSpaceOfAYear();}
+            return "Flowers \"" +getPlant()+ "\" have grown in a year: "+plantGrowthInTheSpaceOfAYear()+" centimeter.";}
         else
-            return "Flowers \"" +getPlant()+ "\" are seed or not exist or have been cut (0 cm)";
+            return "Flowers \"" +getPlant()+ "\" are seed or not exist or have been cut (0 cm).";
     }
 }

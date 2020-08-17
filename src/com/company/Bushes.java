@@ -44,9 +44,9 @@ public class Bushes extends Plants {
             return "Bush  \"" +getPlant()+"\" has grown in a year: "+plantGrowthInTheSpaceOfAYear()+ " centimeter";}
         if(getYears()>1)
         {return "Bush \"" +getPlant()+"\" has grown in "+getYears()+" years: " +plantGrowthInTheSpaceOfYears()+" centimeter" +" or "
-                +(plantGrowthInTheSpaceOfYears()/100)+ " meter";}
+                +(plantGrowthInTheSpaceOfYears()/100)+ " meter.";}
         if(getYears()==0)
-            return "Early growth bush \"" +getPlant()+ "\" is 40 centimeter";
+            return "Early growth bush \"" +getPlant()+ "\" is 40 centimeter.";
         else
             return "not exist";
     }

@@ -44,13 +44,13 @@ public class Trees extends Plants {
     @Override
     public String toString() {
         if(getYears()==1) {
-                return "Tree \"" +getPlant()+"\" has grown in a year: " + plantGrowthInTheSpaceOfAYear()+ " centimeter";}
+                return "Tree \"" +getPlant()+"\" has grown in a year: " + plantGrowthInTheSpaceOfAYear()+ " centimeter.";}
         if(getYears()>1){
                 return "Tree \"" +getPlant()+"\"  has grown in " + getYears()
                         + " years: " + plantGrowthInTheSpaceOfYears()+ " centimeter" +" or "
-                        +(plantGrowthInTheSpaceOfYears()/100)+ " meter";}
+                        +(plantGrowthInTheSpaceOfYears()/100)+ " meter.";}
         if(getYears()==0){
-                return "Early growth tree is 1.50 meter";}
+                return "Early growth tree is 1.50 meter.";}
         else{
             return "not exist";}
     }
